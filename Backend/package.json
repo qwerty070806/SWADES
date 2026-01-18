@@ -1,0 +1,32 @@
+{
+  "name": "ai-support-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:seed": "tsx src/scripts/seed.ts",
+    "db:push": "drizzle-kit push"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^1.1.10",
+    "@ai-sdk/openai": "^1.1.9",
+    "@hono/node-server": "^1.19.9",
+    "ai": "^4.1.18",
+    "dotenv": "^16.6.1",
+    "drizzle-orm": "^0.30.10",
+    "hono": "^4.3.7",
+    "pg": "^8.11.5",
+    "uuid": "^9.0.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/pg": "^8.11.6",
+    "@types/uuid": "^9.0.8",
+    "drizzle-kit": "^0.21.2",
+    "tsx": "^4.10.5",
+    "typescript": "^5.4.5"
+  }
+}
