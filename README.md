@@ -1,7 +1,7 @@
 # SWADES.AI  
 **AI-Powered Customer Support System using Multi-Agent Architecture**
 
-SWADES.AI is a full-stack AI-powered customer support platform designed using a **multi-agent architecture**.  
+This is a full-stack AI-powered customer support platform designed using a **multi-agent architecture**.  
 The system intelligently routes user queries to specialized AI agents, maintains conversational context, and provides structured, reliable responses through a modern web interface.
 
 This project was built with a **production-oriented mindset**, focusing on clean architecture, modularity, and real-world scalability.
